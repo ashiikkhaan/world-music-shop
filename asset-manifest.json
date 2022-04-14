@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/world-music-shop/static/css/main.114745a2.css",
+    "main.js": "/world-music-shop/static/js/main.cbc96fe2.js",
+    "static/js/787.f959713f.chunk.js": "/world-music-shop/static/js/787.f959713f.chunk.js",
+    "index.html": "/world-music-shop/index.html",
+    "main.114745a2.css.map": "/world-music-shop/static/css/main.114745a2.css.map",
+    "main.cbc96fe2.js.map": "/world-music-shop/static/js/main.cbc96fe2.js.map",
+    "787.f959713f.chunk.js.map": "/world-music-shop/static/js/787.f959713f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.114745a2.css",
+    "static/js/main.cbc96fe2.js"
+  ]
+}
