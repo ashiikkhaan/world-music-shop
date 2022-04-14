@@ -4,5 +4,19 @@
 }
 
 .products-container {
-    background-color: aliceblue;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 45px;
+    margin: 100px 50px;
+}
+
+.cart-container {
+    background: #ffeeec;
+    /* background-color: orange; */
+}
+
+@media screen and (max-width:1100px) {
+    .products-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }

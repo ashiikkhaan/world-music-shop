@@ -2,42 +2,42 @@
     {
       "id": "6257dc3dc17bb392a3dd6600",
       "price": 1499,
-      "img": "../src/images/product1.png",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbOHW92ZEwjr1f9KrhHB2gLoqNgUjXvyX6Qg&usqp=CAU",
       "name": "PRO SERIES SOLOIST™ SL3M",
       "brand": "Jackson"
     },
     {
       "id": "6257dc3dd06bff61811f16de",
       "price": 1099,
-      "img": "../src/images/product2.png",
+      "img": "https://media.sweetwater.com/images/items/750/PDDWR7NW-large.jpg?v=d51e7e8ed908ad1f",
       "name": "DAVE DAVIDSON WARRIOR™ WR7 MAH",
       "brand": "Jackson"
     },
     {
       "id": "6257dc3d15c5dd9e4957a146",
       "price": 1599,
-      "img": "../src/images/product3.jpg",
+      "img": "https://www.ibanez.com/common/product_artist_file/file/p_region_KIKO10BP_TGB_1P_04_sub_1.jpg",
       "name": "KIKO10BP",
       "brand": "Ibanez"
     },
     {
       "id": "6257dc3d229f772de085424f",
       "price": 799,
-      "img": "../src/images/product4.jpg",
+      "img": "https://guitar.com/wp-content/uploads/2021/09/Fender-Player-Plus-Stratocaster-3@2160x2700.jpg",
       "name": "PLAYER PLUS STRATOCASTER®",
       "brand": "Fender"
     },
     {
       "id": "6257dc3d4c60f173eba238a9",
       "price": 2099,
-      "img": "../src/images/product5.jpg",
+      "img": "https://www.pitbullaudio.com/media/catalog/product/2/0/20220113-dsc02380.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=",
       "name": "RG5120M Prestige",
       "brand": "Ibanez"
     },
     {
       "id": "6257dc3de840812d103ff506",
       "price": 1299,
-      "img": "../src/images/product6.png",
+      "img": "https://guitars.azureedge.net/aza/user/gear/jackson-pro-series-signature-brown-waln-UYdNrTQ.jpg?maxwidth=500",
       "name": "MARK MORTON DOMINION™ WITH FIGURED WALNUT",
       "brand": "Jackson"
     }

@@ -1,0 +1,40 @@
+.cart {
+    position: sticky;
+    top: 80px;
+    padding: 20px;
+}
+.heading {
+    color: #2C83B8;
+    text-align: center;
+}
+
+.button {
+    width: 100%;
+    border: 1px solid #95A0A7;
+    box-sizing: border-box;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    color: aliceblue;
+}
+.button p {
+    margin-right: 10px;
+    font-size: 15px;
+}
+.button .icon {
+    font-size: 17px;
+}
+.choose-button {
+    background: #CA2E2C;
+}
+.choose-button:hover {
+    background-color: #a40a08;
+}
+.refresh-button{
+    background-color: #2C83B8;
+}
+.refresh-button:hover{
+    background-color: #0d6398;
+}
