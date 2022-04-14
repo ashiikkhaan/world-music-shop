@@ -1,0 +1,44 @@
+[
+    {
+      "id": "6257dc3dc17bb392a3dd6600",
+      "price": 1499,
+      "img": "../src/images/product1.png",
+      "name": "PRO SERIES SOLOIST™ SL3M",
+      "brand": "Jackson"
+    },
+    {
+      "id": "6257dc3dd06bff61811f16de",
+      "price": 1099,
+      "img": "../src/images/product2.png",
+      "name": "DAVE DAVIDSON WARRIOR™ WR7 MAH",
+      "brand": "Jackson"
+    },
+    {
+      "id": "6257dc3d15c5dd9e4957a146",
+      "price": 1599,
+      "img": "../src/images/product3.jpg",
+      "name": "KIKO10BP",
+      "brand": "Ibanez"
+    },
+    {
+      "id": "6257dc3d229f772de085424f",
+      "price": 799,
+      "img": "../src/images/product4.jpg",
+      "name": "PLAYER PLUS STRATOCASTER®",
+      "brand": "Fender"
+    },
+    {
+      "id": "6257dc3d4c60f173eba238a9",
+      "price": 2099,
+      "img": "../src/images/product5.jpg",
+      "name": "RG5120M Prestige",
+      "brand": "Ibanez"
+    },
+    {
+      "id": "6257dc3de840812d103ff506",
+      "price": 1299,
+      "img": "../src/images/product6.png",
+      "name": "MARK MORTON DOMINION™ WITH FIGURED WALNUT",
+      "brand": "Jackson"
+    }
+  ]

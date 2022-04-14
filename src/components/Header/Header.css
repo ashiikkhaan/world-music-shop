@@ -1,0 +1,28 @@
+.header {
+    height: 100px;
+    /* background: #1C2B35; */
+    background: #F6F6F6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 140px;
+    padding-right: 140px;
+
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+.header img {
+    /* width: 200px; */
+    height: 100px;
+}
+
+.header a {
+    text-decoration: none;
+    color: #2E84B6;
+    font-size: 18px;
+    margin-left: 36px;
+}
+.header a:hover {
+    color: red;
+}
