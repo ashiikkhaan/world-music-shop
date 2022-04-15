@@ -9,7 +9,7 @@
     padding-right: 140px;
 
     position: sticky;
-    top: 0px;
+    top: -10px;
     z-index: 1;
 }
 .header img {

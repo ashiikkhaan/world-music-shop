@@ -6,20 +6,36 @@ import './Shop.css';
 const Shop = () => {
 
     const [products, setProducts] = useState([]);
+    const [cart, setCart] = useState([]);
     useEffect( () => {
         fetch('product.json')
         .then (res => res.json())
         .then (data => setProducts(data))
     }, []);
+
+    const handleAddToCart = (product) => {
+        const newCart = [...cart, product];
+        if(newCart.length <= 4) {
+            setCart(newCart);
+        }
+        else {
+            console.log('you cannot add more')
+        }
+    }
+
     return (
         <div className='shop-container'>
             <div className="products-container">
                 {
-                    products.map(product => <Product product={product} key={product.id}></Product>)
+                    products.map(product => <Product 
+                        product={product} 
+                        key={product.id}
+                        handleAddToCart={handleAddToCart}
+                        ></Product>)
                 }
             </div>
             <div className="cart-container">
-                <Cart></Cart>
+                <Cart cart={cart}></Cart>
             </div>
         </div>
     );

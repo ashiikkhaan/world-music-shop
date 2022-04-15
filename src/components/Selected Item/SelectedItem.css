@@ -1,0 +1,17 @@
+.selected-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    /* color: #2C83B8; */
+    color: rgb(40, 40, 40);
+}
+.selected-item  img{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #95aebd;
+    border-radius: 50%;
+}
+.selected-item .icon {
+    color: #CA2E2C;
+}

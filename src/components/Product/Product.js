@@ -4,7 +4,8 @@ import React from 'react';
 import './Product.css';
 
 const Product = (props) => {
-    const {img, name, price, brand} = props.product;
+    const {product, handleAddToCart} = props;
+    const {img, name, price, brand} = product;
     return (
         <div className='product'>
             <img src={img} alt="" />
@@ -13,7 +14,7 @@ const Product = (props) => {
                 <p>Brand: {brand}</p>
                 <p>Price: $ {price}</p>
             </div>
-            <button className='button-cart'>
+            <button onClick={() => handleAddToCart(product)} className='button-cart'>
                 <p>Add to Cart</p>
                 <FontAwesomeIcon className='icon' icon={faCartShopping}></FontAwesomeIcon>
             </button>
