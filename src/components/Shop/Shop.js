@@ -13,6 +13,7 @@ const Shop = () => {
         .then (data => setProducts(data))
     }, []);
 
+
     const handleAddToCart = (product) => {
         let selectedProductId = product.id;
         // let newCart = [];
@@ -23,16 +24,23 @@ const Shop = () => {
                 setCart(newCart);
             }
             else{
-                console.log('you cannot add more')
+                console.log('you cannot add more');
+                // i have to show alert in here
             }
         }
-        // const newCart = [...cart, product];
-        // if(newCart.length <= 4) {
-        //     setCart(newCart);
-        // }
-        // else {
-        //     console.log('you cannot add more')
-        // }
+    }
+
+
+    const chooseOneItem = (arrayOfItems) => {
+        const randomlySelectedItem = arrayOfItems[Math.floor(Math.random()*arrayOfItems.length)];
+        const newCart = [];
+        newCart.push(randomlySelectedItem);
+        setCart(newCart);
+    }
+
+    
+    const refreshItems = () => {
+        setCart([]);
     }
 
     return (
@@ -47,7 +55,11 @@ const Shop = () => {
                 }
             </div>
             <div className="cart-container">
-                <Cart cart={cart}></Cart>
+                <Cart 
+                    cart={cart} 
+                    chooseOneItem= {chooseOneItem}
+                    refreshItems= {refreshItems}
+                    ></Cart>
             </div>
         </div>
     );

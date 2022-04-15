@@ -5,7 +5,8 @@ import SelectedItem from '../Selected Item/SelectedItem';
 import './Cart.css';
 
 const Cart = (props) => {
-    const arrayOfItems = props.cart;
+    const  {cart, chooseOneItem, refreshItems} = props;
+    const arrayOfItems = cart;
     return (
         <div className='cart'>
             <h3 className='heading'>Are You Confused?</h3>
@@ -18,11 +19,11 @@ const Cart = (props) => {
             {
                 arrayOfItems.map(item => <SelectedItem SelectedItem={item} ></SelectedItem>)
             }
-            <button className='choose-button button'>
+            <button onClick={() => chooseOneItem(arrayOfItems)} className='choose-button button'>
                 <p>Choose One Guitar</p>
                 <FontAwesomeIcon className='icon' icon={faGuitar}></FontAwesomeIcon>
             </button>
-            <button className='refresh-button button'>
+            <button onClick={() => refreshItems()} className='refresh-button button'>
                 <p>Let's Select Again</p>
                 <FontAwesomeIcon className='icon' icon={faRotate}></FontAwesomeIcon>
             </button>
