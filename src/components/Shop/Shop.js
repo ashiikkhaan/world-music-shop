@@ -14,13 +14,25 @@ const Shop = () => {
     }, []);
 
     const handleAddToCart = (product) => {
-        const newCart = [...cart, product];
-        if(newCart.length <= 4) {
-            setCart(newCart);
+        let selectedProductId = product.id;
+        // let newCart = [];
+        const exists = cart.find(product => product.id === selectedProductId)
+        if(!exists) {
+            const newCart = [...cart, product];
+            if(newCart.length <= 4) {
+                setCart(newCart);
+            }
+            else{
+                console.log('you cannot add more')
+            }
         }
-        else {
-            console.log('you cannot add more')
-        }
+        // const newCart = [...cart, product];
+        // if(newCart.length <= 4) {
+        //     setCart(newCart);
+        // }
+        // else {
+        //     console.log('you cannot add more')
+        // }
     }
 
     return (
